@@ -19,7 +19,7 @@ const response = await openai.chat.completions.create({
                 context. If you cannot Complete the Task with the context, 
                 don't lie and make up stuff. Just say you need more context.
 
-                Task: Create a summary of the following context. Write it in markdown format. Include key notes, summary, etc. anything important.
+                Task: Create college level notes on the following context.
 
                 
                 Context: ${docs.map((r) => r.pageContent).join('\n')}`,
